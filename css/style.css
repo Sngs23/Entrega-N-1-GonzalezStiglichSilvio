@@ -1,0 +1,129 @@
+*{
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+/**Responsive Design*/
+@media (min-width:900px) {
+    html{
+        width: 90%;
+    } 
+}
+
+@media (max-width: 768px){
+    *{ 
+        font-size: 1.2rem!important;
+        
+        padding: 0%!important;
+    }
+    #principal{
+        display:block;
+       
+    }
+    .software svg{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+@media (max-width: 576px){
+    *{
+        font-size: 1rem!important;
+        font-weight: bold;
+        padding: 0%!important;
+    }
+    #principal{
+        display:block;
+        width: 200px;
+        height: 100px;
+    }
+}
+
+/**HTML*/
+
+html{
+    background-color:rgb(130, 170, 227)
+}
+
+/**BODY*/
+
+
+#principal{
+    float: right;
+    margin:auto;
+    margin-top: 50px;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(32, 82, 149);
+    border-radius: 0px 1rem 1rem 0px;
+}
+
+#herramientas{
+    display: block;
+    list-style: none;
+    text-align:  center;
+    background-color: rgb(250, 234, 214);
+    font-size: 1.5rem;
+    border-style: solid;
+    border-radius: .5rem;
+} 
+.software svg{
+    width: 40px;
+    height: 40px;
+}
+
+#nombre{
+    font-size: 2rem;
+    border-style: solid;
+    border-width: .2rem 0 .2rem 0;
+}
+
+
+#foto{
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+
+#textoMenu{
+    width: 100%;
+    float: right;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4rem;
+}
+
+#menu {
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    border-radius: 0 1rem 1rem 0;
+    border-style: solid;
+    background-color: rgb(44, 116, 179);
+}
+#menu h2{
+    cursor: pointer;
+}
+
+
+/**PIE*/
+
+footer{
+    display: inline-flex;
+    color:rgb(192, 234, 240);
+    
+}
+#icono_linkedin, #icono_facebook{
+    cursor:pointer;
+
+}
+#icono_linkedin, #icono_facebook, #icono_telefono{
+    width:60px;
+    height: 60px;
+}
+
+
+
